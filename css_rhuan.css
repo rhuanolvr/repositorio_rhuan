@@ -1,0 +1,115 @@
+body{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke ; 
+    margin: 0px;
+    background-color:rgba(20, 20, 20, 0.911);
+}
+
+header{
+    background-image: url(fundo_saopaulo.jpg);
+    background-size: 100%;
+    height: 300px;
+  background-repeat: no-repeat;
+  }
+
+header h1{
+    top: 80%;
+    position: relative;
+    margin: 0px;
+    margin-left: 50px;
+ }
+
+p {margin-left: 50px;
+    font-size: large;}
+
+fieldset { 
+    border: #F51400;
+    border-style: groove;
+    width: fit-content;
+    margin-left: 50px; margin-right: 50px; margin-bottom: 2px;
+    border-radius: 5px;
+}
+    
+input, textarea, select, button {
+    border-radius: 5px;
+    border: black;
+}
+
+#botao {
+    margin-left: 50px;
+}
+
+legend{
+    font-size: large;
+}
+
+input {margin-left: 30px; font-size: large;
+}
+
+
+textarea {
+    margin-left: 50px; font-size: medium; margin-top: 10px;
+}
+
+
+
+h1 { color: black;
+}
+
+h2{ color: #F51400;
+  margin-left: 50px;
+}
+
+
+
+
+
+a { text-decoration: none;
+font-weight: bolder;
+color: whitesmoke ;
+}
+
+a:hover{
+   color: #E61300;
+}
+
+nav ul{
+   list-style-type: none;
+   background-color: #F7584A;
+   margin: 0px;
+   height: 50px;
+}
+
+nav li{
+   display: inline-block;
+   margin-right: 180px;
+   margin-left: 10px;
+   font-size: x-large;
+   background-color: #F7584A;
+   top: 20%;
+   position: relative;
+}
+
+img{
+   height: 500px;
+   width: 360px;
+}
+
+figure{
+   position: relative;
+   margin-left: 40%;
+}
+
+ol {
+   list-style-type: upper-roman;
+   margin-left: 50px;
+   font-size:large;
+}
+
+ul {
+   list-style-type:square;
+   margin-left: 50px; 
+   font-size: large;
+}
+
+
+

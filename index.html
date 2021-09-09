@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Site do Rhuan 
+        </title>
+        <link rel="stylesheet" type="text/css" href="css_rhuan.css" media="screen"> 
+        <script>
+            function tamanho(size) {
+                h1 = document.querySelector('h1');
+                h1.style.fontSize = size;
+            }
+        </script>
+        <script src="botoes_rhuan.js"></script>
+    </head>
+   
+   <body>
+       <header>
+        <h1> Rhuan Oliveira </h1>  
+            
+            
+       </header>
+     <nav>
+      <ul>
+        <li> <a href="#primeira"> Minha primeira página</a></li>
+       <li> <a href="#Objetivo da página"> Rhuan by Rhuan</a> </li>
+       <li> <a href="#Curso"> Cursando </a> </li>
+       <li> <a href="#Hobbies"> Meus Hobbies </a> </li>
+       <li> <a href="#Rotina"> Minha Rotina </a> </li>
+       
+    </nav>
+      </ul>
+      <figure>
+          <img src="rhuan_vertical.jpg">
+          <figcaption> Eu na praia </figcaption>
+      </figure>
+      <h2 id="primeira">Minha primeira página</h2>
+      <p>Esta foi a <a href="primeira_rhuan.html">primeira versão </a>  desta página</p>
+     
+     
+      <h2 id="Objetivo da página"> Rhuan por Rhuan</h2>
+      <p> Tenho 18 anos e estou no segundo ano do ensino médio no IFES. 
+         <br> Sou torcedor do São Paulo e amo uma praia. </p>
+     <h2 id="Curso"> Cursando </h2>
+      <p> Programação para Internet no campus IFES Serra</p>     
+      <h2 id="Hobbies">Hobbies</h2>
+    <ul>
+        <li>jogar futebol</li>
+        <li>assistir vídeos no <a href="http://www.youtube.com/">Youtube</a> </li>
+        <li>jogos rápidos de computador, por exemplo solitaire.</li>
+        <li>jogar baralho</li>
+        <li>jogar altinha na praia</li>
+    </ul>
+    <h2 id="Rotina">Rotina</h2>
+    <ol>
+        <li>levanto as 7h</li>
+        <li>aula de 8 ate 12h</li>
+        <li>12h vou pro crossfit, volto as 13h</li>
+         <ul>
+         <li> malho lá na <a href="https://www.instagram.com/box.027/?hl=pt-br">Box crossfit</a></li>
+         </ul>
+        <li>almoço</li>
+        <li>lavo a louça</li>
+        <li>estudo das 15h até as 17h</li>
+        <li>a noite fico livre</li>
+    </ol>
+    <h2> Quero te conhecer um pouco</h2>
+    <fieldset>
+        <legend>Você já programou alguma vez?</legend>
+        <input type="radio" name="programa" value="sim"> sim
+        <input type="radio" name="programa" value="nao"> não
+    </fieldset>
+    <fieldset>
+        <legend>Se sim, em qual dessas linguagens você programou?</legend>
+        <input type="checkbox" name="linguagens" value="HTML"> HTML
+        <input type="checkbox" name="linguagens" value="CSS"> CSS
+        <input type="checkbox" name="linguagens" value="Java"> Java Script
+        <input type="checkbox" name="linguagens" value="Python"> Python
+        <input type="checkbox" name="linguagens" value="Outras"> Outra (s)
+        <input type="checkbox" name="linguagens" value="Nenhuma"> Não programo
+    </fieldset>
+    <fieldset>
+     <legend> De onde você me conhece?</legend>
+        <select name="relacao" id="">
+            <option value="" selected disabled> Selecione</option>
+            <option value="familia">sou da sua família</option>
+            <option value="amigo">sou um amigo(a) seu</option>
+            <option value="professor">sou seu professor(a)</option>
+            <option value="nenhum">não te conheço</option>
+        </select>
+    </fieldset>
+    
+    <textarea rows="5" style="width: 60em;" name= opniao placeholder="O que posso melhorar?"></textarea>
+    <br>
+    <button type= "submit" id="botao"> Enviar </button>
+    
+  </body>
+</html>

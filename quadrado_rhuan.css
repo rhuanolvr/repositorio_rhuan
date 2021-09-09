@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dimgray;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: solid 1px;
+}
+
+input {
+    border: none;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    font-size: larger;
+}
+
+.somaerradacoluna input, 
+.somaerradalinha input, 
+.somaerradadiagonalsecundaria input, 
+.somaerradadiagonalprincipal input {
+    color: orange;
+    border-color: orange;
+    border-width: 4em;
+    border: solid
+}
+
+
+
+.foradoslimites input,
+.numerosrepetidos input {
+    color: red;
+    border-color: red;
+    border-width: 4em;
+    border: solid;  
+}
+
+
+
+.vitoria tr td input {
+    color: green;
+    
+}
+
+.vitoria tr td {
+    border-color: green;
+    border-width: 4px;
+}
+
+.pergunta{
+    border: 3px  dashed black;
+    border-radius: 5px;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #AB00AD;
+    background-color: #ADFF7D;
+    
+}
